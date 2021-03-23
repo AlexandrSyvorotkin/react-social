@@ -9,6 +9,8 @@ const MyPost = () => {
             <div>
                 New post
             </div>
+            <Post message={'Hi, how are you'}/>
+            <Post message={"It's my first post"}/>
             <Post/>
         </div>
     )

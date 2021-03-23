@@ -1,7 +1,7 @@
 .container {
-	width: 95%;
-	max-width: 1140px;
-	margin: auto;
+    width: 95%;
+    max-width: 1140px;
+    margin: auto;
 }
 
 .app-wrapper {
@@ -14,3 +14,7 @@
     grid-gap: 10px;
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: crimson;
+}
