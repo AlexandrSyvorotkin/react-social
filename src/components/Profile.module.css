@@ -1,0 +1,13 @@
+.content {
+    grid-area: c;
+    background-color: crimson;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+
+.item {
+    color: yellow;
+}
