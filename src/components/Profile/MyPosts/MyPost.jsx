@@ -2,14 +2,9 @@ import React from 'react'
 import s from './MyPost.module.css'
 import Post from './Post/Post'
 
-const MyPost = () => {
+const MyPost = (props) => {
 
-    let Posts = [
-        {id: 1, message: 'Hi, how are you', likesCount: 12},
-        {id: 2, message: 'It\'s my first post', likesCount: 11},
-    ]
-
-    let postsElements = Posts
+    let postsElements = props.posts
         .map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
     return (
@@ -17,7 +12,7 @@ const MyPost = () => {
             <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea>ddwa</textarea>
+                    <textarea>ddd</textarea>
                 </div>
                 <div>
                     <button>Add post</button>
@@ -32,3 +27,4 @@ const MyPost = () => {
 }
 
 export default MyPost
+
